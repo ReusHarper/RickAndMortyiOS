@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  Animations
-//
-//  Created by ReusHarper on 04/11/22.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

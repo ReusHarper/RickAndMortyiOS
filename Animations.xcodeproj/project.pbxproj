@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21B121D2919975800713F25 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B121C2919975800713F25 /* DetailsViewController.swift */; };
+		A25DB1EB29197F1E00205DE0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25DB1E929197F1E00205DE0 /* TableViewController.swift */; };
+		A25DB1EC29197F1E00205DE0 /* Rick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25DB1EA29197F1E00205DE0 /* Rick.swift */; };
 		A2F0E04E2915F2A3004F1224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E04D2915F2A3004F1224 /* AppDelegate.swift */; };
 		A2F0E0502915F2A3004F1224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E04F2915F2A3004F1224 /* SceneDelegate.swift */; };
 		A2F0E0522915F2A3004F1224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E0512915F2A3004F1224 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A21B121C2919975800713F25 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		A25DB1E929197F1E00205DE0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A25DB1EA29197F1E00205DE0 /* Rick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rick.swift; sourceTree = "<group>"; };
 		A2F0E04A2915F2A3004F1224 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F0E04D2915F2A3004F1224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F0E04F2915F2A3004F1224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 		A2F0E04C2915F2A3004F1224 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				A25DB1EA29197F1E00205DE0 /* Rick.swift */,
+				A25DB1E929197F1E00205DE0 /* TableViewController.swift */,
+				A21B121C2919975800713F25 /* DetailsViewController.swift */,
 				A2F0E04D2915F2A3004F1224 /* AppDelegate.swift */,
 				A2F0E04F2915F2A3004F1224 /* SceneDelegate.swift */,
 				A2F0E0512915F2A3004F1224 /* ViewController.swift */,
@@ -83,6 +92,8 @@
 			dependencies = (
 			);
 			name = Animations;
+			packageProductDependencies = (
+			);
 			productName = Animations;
 			productReference = A2F0E04A2915F2A3004F1224 /* Animations.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = A2F0E0412915F2A3004F1224;
+			packageReferences = (
+				A2F0E0612915F448004F1224 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = A2F0E04B2915F2A3004F1224 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,6 +155,9 @@
 				A2F0E0522915F2A3004F1224 /* ViewController.swift in Sources */,
 				A2F0E04E2915F2A3004F1224 /* AppDelegate.swift in Sources */,
 				A2F0E0502915F2A3004F1224 /* SceneDelegate.swift in Sources */,
+				A25DB1EC29197F1E00205DE0 /* Rick.swift in Sources */,
+				A25DB1EB29197F1E00205DE0 /* TableViewController.swift in Sources */,
+				A21B121D2919975800713F25 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +375,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2F0E0612915F448004F1224 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = A2F0E0422915F2A3004F1224 /* Project object */;
 }
