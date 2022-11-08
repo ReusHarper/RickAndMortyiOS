@@ -10,6 +10,8 @@
 		A21B121D2919975800713F25 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B121C2919975800713F25 /* DetailsViewController.swift */; };
 		A25DB1EB29197F1E00205DE0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25DB1E929197F1E00205DE0 /* TableViewController.swift */; };
 		A25DB1EC29197F1E00205DE0 /* Rick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25DB1EA29197F1E00205DE0 /* Rick.swift */; };
+		A25DFC89291A1B4A00E1DB0C /* Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25DFC88291A1B4900E1DB0C /* Network.framework */; };
+		A25DFC8B291A1B5800E1DB0C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25DFC8A291A1B5800E1DB0C /* WebKit.framework */; };
 		A2F0E04E2915F2A3004F1224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E04D2915F2A3004F1224 /* AppDelegate.swift */; };
 		A2F0E0502915F2A3004F1224 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E04F2915F2A3004F1224 /* SceneDelegate.swift */; };
 		A2F0E0522915F2A3004F1224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F0E0512915F2A3004F1224 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		A21B121C2919975800713F25 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		A25DB1E929197F1E00205DE0 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A25DB1EA29197F1E00205DE0 /* Rick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rick.swift; sourceTree = "<group>"; };
+		A25DFC88291A1B4900E1DB0C /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		A25DFC8A291A1B5800E1DB0C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		A2F0E04A2915F2A3004F1224 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F0E04D2915F2A3004F1224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F0E04F2915F2A3004F1224 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25DFC8B291A1B5800E1DB0C /* WebKit.framework in Frameworks */,
+				A25DFC89291A1B4A00E1DB0C /* Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A25DFC87291A1B4800E1DB0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A25DFC8A291A1B5800E1DB0C /* WebKit.framework */,
+				A25DFC88291A1B4900E1DB0C /* Network.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A2F0E0412915F2A3004F1224 = {
 			isa = PBXGroup;
 			children = (
 				A2F0E04C2915F2A3004F1224 /* Animations */,
 				A2F0E04B2915F2A3004F1224 /* Products */,
+				A25DFC87291A1B4800E1DB0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
